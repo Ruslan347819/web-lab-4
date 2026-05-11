@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('sys-os').textContent = localStorage.getItem('userPlatform');
     document.getElementById('sys-browser').textContent = localStorage.getItem('userAgent').substring(0, 30) + '...';
 
-    fetch('https://jsonplaceholder.typicode.com/posts/18/comments')
+    fetch('https://fuzzy-taxes-follow.loca.lt')
         .then(response => response.json())
         .then(data => {
             const container = document.getElementById('reviews-container');
