@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
             message: this.message.value
         };
 
-        fetch('https://fuzzy-taxes-follow.loca.lt', {
+        fetch('https://82def55cc3d583.lhr.life/api/contact', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(formData)
